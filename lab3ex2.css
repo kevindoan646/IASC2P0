@@ -1,0 +1,13 @@
+body{background-color:red;
+     color:greenText;
+}
+.greenText{color:green;
+           font-style:italic;
+           font-size:30px;
+
+         }
+.display{text-decoration-line: }
+.theSize{
+  font-size:30px;
+  display:inline;
+}
