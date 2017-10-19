@@ -1,0 +1,25 @@
+#wrapper{
+  background-color: black;
+}
+
+#header{
+  backgruond-color:red;
+}
+#content{
+  backgruond-color:green;
+}
+#news{
+  background-color:pink;
+}
+.newsBlock{
+  background-color:purple;
+  float:left;
+  width:25%;
+  height:100px;
+}
+.eventBlock{
+  background-color:yellow;
+  float:left;
+  width:50%;
+  height:200px;
+}

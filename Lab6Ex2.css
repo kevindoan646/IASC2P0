@@ -1,0 +1,28 @@
+body{background-color: black}
+#wrapper{
+  background-color: green;
+  margin: 0 auto;
+}
+#header{background-color: red;
+height: 50px;
+text-align: center;
+font-weight: bold;
+color: black;}
+
+#nav{background-color:pink;
+  float:left;
+  width:30%;
+  height:100px;
+}
+#nav2{background-color:orange;
+  float:left;
+  width:30%;
+  height:100px;
+}
+#content{background-color: blue;
+height: 600px;
+color: black;}
+
+#footer{background-color: yellow;
+height: 100px;
+color:black;}
