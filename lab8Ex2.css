@@ -1,0 +1,30 @@
+.box1{
+  border-style: dotted;
+  border-color: purple;
+  height:300px;
+}
+.greenText{
+  color:green;
+  text-align:center;
+  padding:250px;
+}
+.moreText{
+  color:orange;
+  font-size: 20px;
+}
+.randomText{
+  color:yellow;
+  text-align: right;
+}
+
+.someContent{
+  text-align:center;
+
+}
+.redText{
+  color:red;
+  vertical-align: super;
+}
+.purp{
+  color:purple;
+}
