@@ -1,9 +1,7 @@
-//This will output when the page loads
-document.write("Output Zero Here");
+function add(){
 
-//This will output when a button is pressed
-function therest(){
-  document.ElementById("output1").innerHTML="Output One Here";
-  document.ElementById("output2").innerHTML="Output Two Here";
-	document.ElementById("output3").innerHTML="Output Three Here";
+var num 1 = document.getElementById('num1').value;
+var num 1 = document.getElementById('num2').value;
 }
+var sum = Number(num1) + Number(num2);
+document.getElementById('output').innerHTML = sum
