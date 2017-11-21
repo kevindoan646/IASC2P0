@@ -1,0 +1,57 @@
+#wrapper{
+  background-color: red;
+}
+
+#header{
+  background-color:red;
+}
+#content{
+  background-color:green;
+}
+
+<!--Positionings-->
+#fixed{
+  position:fixed;
+}
+#absolute{
+  position:absolute;right:0;
+}
+#relative{
+   position:relative;left:0;
+
+<!--Change Color of Text-->
+}
+.yellowText{
+  color:yellow;
+}
+
+<!--Change Size of Text-->
+.theSize{
+  font-size:40px;
+  font-style:italic;
+}
+
+<!--Transformation Text and change of Font-->
+.someText{font-style:arial;
+          text-transform: lowercase;
+}
+
+<!--Nesting and and grouping selectors-->
+h1, h2, p{
+  color:blue;
+}
+h1{
+  font-size:30;
+}
+p{
+  font-size:30;
+}
+ol ~ ul {
+    background-color: yellow;
+}
+
+#myContainer {
+margin: 20px 10% 20px 10%;
+border: black 3px solid;
+padding: 10px 20% 10px 20%;
+} 
