@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--this HTML will adapt to older versions of browsers-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> <!-- supports english keyboard character set i.e. a degree symbol -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- internet explorer supprot -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- adjusts the screen to match mobile devices -->
+    <title>Kevin Doan | Student Portfolio</title>
+	<!-- bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- user defined css sheet -->
+	<link rel="stylesheet" type="text/css" href="kevin_site.css">
+	<!-- font awesome cdn tag -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+	<!-- Nav bar-->
+	<script src="navbar.js"></script>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12"> <!-- defines column width i.e. how many columns should this div take on the screeen for small, xs, and med screens -->
+					<h1 class="black">About me</h1>
+					<div class="block"></div>
+          <p>	My name is <em>Kevin Doan</em> and I am a first year <a href="https://brocku.ca/webcal/2016/undergrad/beco.html" target="_blank" style="text-decoration:none; color: rgb(75,139,202)">Business Economics</a> student. I was born <strong>Stoney Creek</strong>, but raised in <strong>Brampton</strong>. I have four older brothers which are Ryan, Henry, Quyet (youngest to oldest). I took this course because I enjoy using technology and today's time almost everything involves computers.</p>
+<p>On my spare time I enjoy playing sports and going out with my friends. I also play video games when I am not busy. My goals in life is to travel with my family and friends and explore different cultures. </p>
+<p> What I plan to do on my winter break is stay over my brother's place in <strong>Toronto</strong> so I can go out and eat good food. I am extremely tired of eating <a href="https://az836796.vo.msecnd.net/media/image/product/en/medium/0006929912503.jpg" target="_blank" style="text-decoration:none; color: rgb(75,139,202)">Jane's Chicken Nuggets</a>. I also plan to hang out with my high school friends this winter break because I haven't seen them since the Summer.	 </p>
+			</div>
+		</div>
+	</div>
+
+  <div class="row center-block">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <img src="friends.jpg" class="my_thumbnail center-block">
+    </div>
+  </div>
+
+    <!-- footer taken from https://getbootstrap.com/docs/4.0/examples/sticky-footer/ -->
+	<footer class="footer">
+      <div class="container">
+		<div class="row text-right"> <!-- align text to right side of screen -->
+			<button onclick="stopTime()"> Check Time</button>
+			&nbsp;
+			<a href="https://www.facebook.com/"><i class="fa fa-facebook-official" ></i></a>
+			&nbsp; <!-- add blank space -->
+			<a href="https://www.youtube.com/channel/UCXImK5ELM0zCZ20cMaU5c4w"><i class="fa fa-youtube-play"></i></a>
+			&nbsp; <!-- add blank space -->
+			<a href="mailto:kevindoan.kd@gmail.com"><i class="fa fa-envelope"></i></a>
+		</div>
+      </div>
+    </footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<!-- check time function -->
+	<script type="text/javascript">
+		var start = new Date();
+		var startMilli = start.getTime();
+
+		function stopTime(){
+		var end = new Date();
+		var endMilli = end.getTime();
+		var diffMilli = endMilli - startMilli;
+		var diffSec = diffMilli/1000;
+
+		  alert("The number of seconds is: " + diffSec);
+		}
+
+	</script>
+
+
+  </body>
+</html>
